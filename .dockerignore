@@ -1,0 +1,140 @@
+# ===============================
+# 🔒 Secret & Env Files
+# ===============================
+**/.env*
+!**/.env.example
+**/secrets.toml
+!**/secrets.toml.enc
+*.key
+*.pem
+
+# ===============================
+# 🐍 Python Artifacts
+# ===============================
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+**/*.pyo
+**/*.pyd
+**/*.pdb
+**/*.so
+
+# ===============================
+# 🏗️ Build & Installer Artifacts
+# ===============================
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+*.egg
+MANIFEST
+develop-eggs/
+downloads/
+lib/
+lib64/
+parts/
+sdist/
+var/
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
+
+# ===============================
+# 🧪 Testing / Coverage
+# ===============================
+.tox/
+.nox/
+.cache/
+htmlcov/
+coverage/
+*.cover
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.hypothesis/
+nosetests.xml
+coverage.xml
+
+# ===============================
+# ⚙️ Virtual Envs
+# ===============================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# ===============================
+# 📓 Notebooks / IDE ===
+# ===============================
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.spyderproject/
+.spyproject/
+.ropeproject/
+ipython_config.py
+profile_default/
+
+# ===============================
+# 🐳 Docker Related
+# ===============================
+*.log
+*.pid
+*.pid.lock
+*.tar
+.dockerignore
+# ⚠️ Allow Dockerfiles and compose files
+# Don't ignore them blindly!
+# Dockerfile*
+# docker-compose*.yml
+
+# ===============================
+# 🔧 Git / CI / Tooling
+# ===============================
+.git
+.gitignore
+.github/workflows/cache/
+.github/actions/cache/
+
+# ===============================
+# 📚 Docs / Static Sites
+# ===============================
+docs/_build/
+site/
+target/
+
+# ===============================
+# 🔐 SBOM & Security
+# ===============================
+sbom.*
+bom.*
+cyclonedx.*
+audit-reports/
+reports/
+
+# ===============================
+# ⚡ Node & Frontend
+# ===============================
+node_modules/
+.next/
+dist/
+build/
+*.tsbuildinfo
+*.map
+*.bundle.js
+npm-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# ===============================
+# 🧪 Lockfiles (Optional)
+# ===============================
+*.lock
+poetry.lock
+Pipfile.lock
+

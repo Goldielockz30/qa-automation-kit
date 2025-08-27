@@ -1,0 +1,17 @@
+# === CORE ===
+fastapi==0.115.0
+uvicorn==0.30.6
+
+# === TESTING ===
+pytest==8.3.2
+pytest-cov==5.0.0
+requests==2.32.3
+playwright==1.47.0
+
+# === LINTING / QUALITY ===
+black==24.8.0
+ruff==0.6.8
+pre-commit==3.8.0
+
+# === ENV LOADING ===
+python-dotenv==1.0.1

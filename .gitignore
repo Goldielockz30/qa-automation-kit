@@ -1,0 +1,164 @@
+
+# === PYTHON CORE ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+
+# === NODE / JAVASCRIPT ===
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+.next/
+out/
+.cache/
+.eslintcache
+.prettierignore
+.prettiercache/
+eslint-report.json
+*.tsbuildinfo
+
+# === C EXTENSIONS ===
+*.so
+
+# === BUILD ARTIFACTS ===
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+*.egg
+MANIFEST
+develop-eggs/
+downloads/
+lib/
+lib64/
+parts/
+sdist/
+var/
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
+
+# === INSTALLER LOGS ===
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === VIRTUAL ENVIRONMENTS ===
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# === ENVIRONMENT FILES / SECRETS ===
+.env
+.env.*
+frontend/.env.local
+backend/.env
+secrets.toml
+secrets.toml.enc
+backend/secrets.toml
+backend/secrets.toml.enc
+!.env.example
+
+# === TESTING / COVERAGE ===
+htmlcov/
+coverage_html_report/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# === NOTEBOOKS / IDE ===
+.ipynb_checkpoints/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.spyderproject/
+.spyproject/
+.ropeproject/
+ipython_config.py
+profile_default/
+*.swp
+*.swo
+
+# === DOCKER ===
+*.log
+*.pid
+*.pid.lock
+docker-compose.override.yml
+docker-compose.*.yml
+!Dockerfile.*
+*.tar
+
+# === MAKEFILE OUTPUT (if any) ===
+*.out
+*.o
+*.a
+
+# === GITHUB ACTIONS ===
+.github/workflows/cache/
+.github/actions/cache/
+
+# === SBOM / SECURITY SCANS ===
+sbom.*
+bom.*
+cyclonedx.*
+reports/
+audit-reports/
+
+# === DOCS & STATIC SITE BUILDS ===
+docs/_build/
+site/
+target/
+_build/
+*.mo
+*.pot
+*.po
+
+# === SYSTEM / MISC ===
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+.python_history
+
+# === PIPENV / POETRY / PYFLOW ===
+__pypackages__/
+__pydantic_cache__/
+
+# === PLATFORM CI/CD DIRECTORIES ===
+.turbo/
+.vercel/
+.netlify/
+
+
+playwright-report/
+test-results/
+*.trace.zip
+*.webm
+*.mp4
+*.png
+.ruff_cache/
+.cache/ruff/
+.black/

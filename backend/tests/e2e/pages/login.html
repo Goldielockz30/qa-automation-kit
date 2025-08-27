@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Demo Login</</title>
+</head>
+<body>
+  <h2>Demo Login</h2>
+  <input id="username" type="text" />
+  <input id="password" type="password" />
+  <button id="login">Login</button>
+  <p id="msg"></p>
+  <script>
+    const btn = document.getElementById('login');
+    btn.addEventListener('click', () => {
+      const u = document.getElementById('username').value;
+      const p = document.getElementById('password').value;
+      const msg = document.getElementById('msg');
+      if (u === 'user' && p === 'pass') {
+        msg.textContent = 'Login successful';
+      } else {
+        msg.textContent = 'Invalid credentials';
+      }
+    });
+  </script>
+</body>
+</html>
