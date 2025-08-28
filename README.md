@@ -34,18 +34,21 @@ Built for **job‑ready automation skills** and smooth local/CI workflows.
 
 ```bash
 # 1. Create project
-git clone https://github.com/Goldielockz30/qa-automation-kit.git
+git clone https://github.com/Gold...
 
 # 2. Go inside
 cd qa-automation-kit
 
-# 3. Install & init
+# 3. Copy environment variables
+cp .env.example .env
+
+# 4. Install & init
 make init
 
-# 4. Format & test
+# 5. Format & test
 make fmt && make test-all
 
-# 5. Demo (headed browser, always visible)
+# 6. Demo (headed browser, always)
 make demo-e2e
 ```
 
